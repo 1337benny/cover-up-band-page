@@ -1,10 +1,14 @@
 import './App.css'
+import startImg from './assets/_Y0A7053.jpg'
+import img1 from './assets/_Y0A7082.jpg'
+import img2 from './assets/_Y0A7153.jpg'
+import img3 from './assets/_Y0A7236.jpg'
 
 function App() {
   return (
     <>
       <section className="hero">
-        <img src="pictures/_Y0A7053.jpg" alt="Cover Up spelar live" className="hero__img" />
+        <img src={startImg} alt="Cover Up spelar live" className="hero__img" />
         <div className="hero__overlay" />
         <div className="hero__content">
           <h1>Cover Up</h1>
@@ -44,9 +48,9 @@ function App() {
         </div>
       </section>
       <section className="bottom">
-        <img src="pictures/_Y0A7236.jpg" alt="Cover Up live 1" className="bottom__img" />
-        <img src="pictures/_Y0A7082.jpg" alt="Cover Up live 2" className="bottom__img" />
-        <img src="pictures/_Y0A7153.jpg" alt="Cover Up live 3" className="bottom__img" />
+        <img src={img1} alt="Cover Up live 1" className="bottom__img" />
+        <img src={img2} alt="Cover Up live 2" className="bottom__img" />
+        <img src={img3} alt="Cover Up live 3" className="bottom__img" />
       </section>
     </>
   )
