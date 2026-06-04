@@ -1,8 +1,8 @@
 import './App.css'
-import startImg from './assets/_Y0A7053.jpg'
-import img1 from './assets/_Y0A7082.jpg'
-import img2 from './assets/_Y0A7153.jpg'
-import img3 from './assets/_Y0A7236.jpg'
+import startImg from './assets/Y0A7053.jpg'
+import img1 from './assets/Y0A7082.jpg'
+import img2 from './assets/Y0A7153.jpg'
+import img3 from './assets/Y0A7236.jpg'
 
 function App() {
   return (
